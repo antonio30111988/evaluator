@@ -28,7 +28,9 @@ class EvaluatorServiceProvider extends ServiceProvider
 
         $this->app->bind('Antonio88\Evaluator\Contracts\AdapterInterface', 'Antonio88\Evaluator\Adapter\File');
 
+
         $this->registerFacade();
+        // tets
     }
 
     /**
